@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm uninstall *)",
+      "Bash(npm install *)",
+      "Bash(curl -s \"https://api-eu-dev-cai.cognigy.cloud/openapi/openapi.json\")"
+    ]
+  }
+}

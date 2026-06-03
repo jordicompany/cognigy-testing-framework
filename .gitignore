@@ -1,0 +1,11 @@
+# Excel test data files — keep off version control
+*.xlsx
+*.xls
+
+# Binary
+allianz-claude-code-helper-darwin-arm64
+
+# Next.js
+app/.next/
+app/node_modules/
+app/.env*
