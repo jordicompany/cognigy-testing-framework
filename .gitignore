@@ -5,6 +5,9 @@
 # Binary
 allianz-claude-code-helper-darwin-arm64
 
+# Claude
+.claude/
+
 # Next.js
 app/.next/
 app/node_modules/
