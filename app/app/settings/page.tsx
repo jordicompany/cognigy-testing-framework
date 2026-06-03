@@ -11,7 +11,7 @@ import {
 import { CognigyProject } from "@/lib/types";
 
 export default function SettingsPage() {
-  const [baseUrl, setBaseUrl] = useState("https://api-eu-dev-cai.cognigy.cloud");
+  const [baseUrl, setBaseUrl] = useState("");
   const [apiKey, setApiKey] = useState("");
   const [projectId, setProjectId] = useState("");
   const [projectName, setProjectName] = useState("");
@@ -102,7 +102,7 @@ export default function SettingsPage() {
             value={baseUrl}
             onChange={(e) => setBaseUrl(e.target.value)}
             className="input"
-            placeholder="https://api-eu-dev-cai.cognigy.cloud"
+            placeholder="https://your-instance.cognigy.cloud"
           />
         </Field>
         <Field label="API Key">
